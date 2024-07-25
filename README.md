@@ -1,15 +1,12 @@
 # TodoList Application
 
-This project is a simple TodoList web application built with HTML, CSS, and JavaScript. It allows users to manage tasks by adding, updating, marking as complete, and deleting tasks.
-
 In this `README.md`:
 
 - **Title and Description**: Clearly states what the project is about.
-- **Screenshot**: Provides a visual representation of the application.
 - **Features**: Lists key features of the TodoList application.
 - **Contributing**: Outlines steps for contributing to the project.
 
-![TodoList Screenshot](screenshot.png)
+This project is a simple TodoList web application built with HTML, CSS, and JavaScript. It allows users to manage tasks by adding, updating, marking as complete, and deleting tasks.
 
 ## Features
 
