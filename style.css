@@ -10,8 +10,9 @@
 }
 
 :root{
-    --primary-color: #fff;
-    --secondary-color: #fff;
+    --primary-color: #111;
+    --primary-light-color: #555;
+    --secondary-color: #ff5945;
     --secondary-dark-color: #fff;
     --container-background-color: #fff;
     --inline-padding: 20px;
@@ -25,18 +26,97 @@ body{
     justify-content: center;
     width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(135deg, #fffafd, #efaeff);
+    background: linear-gradient(135deg, #fffafd, #f5cdff);
 }
 
+.container{
+    width: 100%;
+    max-width: 540px;
+    background-color: var(--container-background-color);
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
 
+.container h2{
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--inline-padding);
+}
 
+.container h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
 
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 40px;
+    padding-left: 10px;
+    margin-bottom: var(--inline-padding);
+}
 
+.input-container input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
 
+.input-container button{
+    border: none;
+    outline: none;
+    background: var(--secondary-color);
+    color: var(--container-background-color);
+    padding: 16px 50px;
+    cursor: pointer;
+    border-radius: 40px;
+}
 
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
 
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url("./assets/unchecked.png");
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
 
+ul li.checked{
+    color: var(--primary-light-color);
+    text-decoration: line-through;
+}
 
+ul li.checked::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url("./assets/checked.png");
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
 
 
 
