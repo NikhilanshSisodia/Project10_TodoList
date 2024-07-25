@@ -136,6 +136,8 @@ ul li span:hover{
     border-radius: 50%;
 }
 
-
-
-
+@media (width <= 500px) {
+    .container{
+        max-width: 100%;
+    }
+}
