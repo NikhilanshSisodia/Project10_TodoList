@@ -136,7 +136,7 @@ ul li span:hover{
     border-radius: 50%;
 }
 
-@media (width <= 350px) {
+@media (orientation: portrait) {
 
     :root{
         --inline-padding: 10px;
