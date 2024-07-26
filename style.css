@@ -136,8 +136,53 @@ ul li span:hover{
     border-radius: 50%;
 }
 
-@media (width <= 550px) {
-    .container{
-        max-width: 100%;
+@media (width <= 350px) {
+
+    :root{
+        --inline-padding: 10px;
     }
+
+    .container{
+        padding: 40px 7px;
+    }
+
+    .container h2{
+        font-size: 18px;
+    }
+
+    .container h2 img{
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .input-container{
+        border-radius: 40px;
+        padding-left: 7px;
+    }
+
+    .input-container input{
+        padding: 10px;
+        font-weight: 12px;
+    }
+
+    .input-container button{
+        padding: 9px 15px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    ul li{
+        font-size: 14px;
+    }
+
+    ul li.checked::before{
+        height: 20px;
+        width: 20px;
+    }
+
+    ul li::before{
+        height: 20px;
+        width: 20px;
+    }
+
 }
