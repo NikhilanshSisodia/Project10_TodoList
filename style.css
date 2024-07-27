@@ -25,7 +25,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    min-height: 100vh;
+    min-height: 100dvh;
     background: linear-gradient(135deg, #fffafd, #f5cdff);
 }
 
